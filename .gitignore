@@ -1,0 +1,23 @@
+# Terraform local state and working dirs
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.* 
+.terraform.tfstate.lock.info
+terraform.tfvars
+terraform.tfvars.json
+
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Scratch pad
+scratch.md

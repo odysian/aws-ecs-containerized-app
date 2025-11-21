@@ -84,11 +84,14 @@ docker stop <container-id>
 docker rm <container-id>
 ```
 
-2af5a4d27abf
-
 # Connect to MySQL container
 docker exec -it 2af5a4d27abf mysql -u appuser -plocalpassword appdb
 
 # Run a query
 mysql> SELECT NOW();
 mysql> exit
+
+
+ecr repo URL = 631353662337.dkr.ecr.us-east-1.amazonaws.com/ecs-app-app
+
+631353662337.dkr.ecr.us-east-1.amazonaws.com
